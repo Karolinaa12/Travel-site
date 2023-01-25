@@ -1,3 +1,50 @@
 body {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  background: url("https://source.unsplash.com/G8rRItjrwkA") no-repeat center
+    center fixed;
+  background-size: cover;
+  color: #0a0a0b;
+}
+
+ul,
+nav {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 1.5rem;
+}
+
+i {
+  font-size: 1.3rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  margin: 0 15px;
 }
