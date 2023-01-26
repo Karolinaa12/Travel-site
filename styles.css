@@ -1,6 +1,5 @@
 body {
   font-family: "Lato", sans-serif;
-  margin: 0;
   background: url("https://source.unsplash.com/G8rRItjrwkA") no-repeat center
     center fixed;
   background-size: cover;
@@ -28,10 +27,12 @@ h1 {
   font-weight: 700;
   color: #fff;
   margin: 0 0 1.5rem;
+  text-align: center;
 }
 
 i {
   font-size: 1.3rem;
+  margin: 0 5px;
 }
 
 header {
@@ -41,10 +42,52 @@ header {
   align-items: center;
   color: #fff;
 }
+
 header nav ul {
   display: flex;
 }
 
 header nav li {
   margin: 0 15px;
+}
+
+a.btn {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: none;
+  color: #fff;
+  padding: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+a.btn:hover {
+  background-color: #d73851;
+  border: 1px solid #d73851;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+input[type="submit"] {
+  color: #fff;
+  padding: 20px 30px;
+  margin: 0;
+  background-color: #ef3f5a;
+  border: 1px solid #ef3f5a;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+input[type="submit"]:hover {
+  background-color: #d73851;
+  border: 1px solid #d73851;
+}
+
+input {
+  padding: 20px 10px;
+  margin: 0;
 }
