@@ -49,6 +49,7 @@ header nav ul {
 
 header nav li {
   margin: 0 15px;
+  cursor: pointer;
 }
 
 a.btn {
@@ -70,16 +71,23 @@ a.btn:hover {
   justify-content: center;
   align-items: center;
   padding: 20px 50px;
+  font-size: 14px;
+}
+form {
+  width: 700px;
+}
+
+input[type="search"] {
+  width: 70%;
 }
 
 input[type="submit"] {
   color: #fff;
-  padding: 20px 30px;
-  margin: 0;
-  background-color: #ef3f5a;
   border: 1px solid #ef3f5a;
+  background-color: #ef3f5a;
   cursor: pointer;
   transition: all ease-in-out 0.4s;
+  width: 20%;
 }
 
 input[type="submit"]:hover {
